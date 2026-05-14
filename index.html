@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Soni Pariya Public School Kannauj</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(135deg,#dfe9f3,#ffffff);
+}
+
+/* HEADER */
+header {
+    background:linear-gradient(90deg,#0f2027,#203a43,#2c5364);
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+    padding:15px;
+}
+
+header img { height:60px; }
+
+/* NAV */
+nav {
+    background:#203a43;
+    text-align:center;
+    padding:12px;
+}
+nav a {
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+
+/* HERO */
+.hero {
+    height:450px;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+               url('school.jpg') center/cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.hero h2 { font-size:45px; }
+.hero p { font-size:20px; }
+
+/* CONTAINER */
+.container {
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
+
+/* CARD */
+.card {
+    background:linear-gradient(135deg,#ffffff,#e3f2fd);
+    padding:30px;
+    margin:25px 0;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card h2 { color:#2c5364; }
+
+p, li {
+    line-height:1.8;
+    font-size:16px;
+}
+
+/* MESSAGE */
+.msg {
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+.msg img {
+    width:130px;
+    border-radius:10px;
+}
+
+/* SLIDER */
+.slider {
+    width:100%;
+    height:350px;
+    overflow:hidden;
+    border-radius:12px;
+}
+
+.slides {
+    display:flex;
+    width:600%;
+    animation:slide 30s infinite;
+}
+
+.slides img {
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+@keyframes slide {
+    0% {margin-left:0;}
+    16% {margin-left:0;}
+    20% {margin-left:-100%;}
+    36% {margin-left:-100%;}
+    40% {margin-left:-200%;}
+    56% {margin-left:-200%;}
+    60% {margin-left:-300%;}
+    76% {margin-left:-300%;}
+    80% {margin-left:-400%;}
+    96% {margin-left:-400%;}
+    100% {margin-left:-500%;}
+}
+
+/* FOOTER */
+footer {
+    background:#0f2027;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo.jpg">
+    <div>
+        <h1>SONI PARIYA PUBLIC SCHOOL</h1>
+        <p>Kannauj | Nursery to 12th</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Shaping Future Leaders</h2>
+    <p>32 Years of Excellence in Education</p>
+</div>
+
+<div class="container">
+
+<!-- ABOUT -->
+<section class="card">
+<h2>About School</h2>
+<p>
+Soni Pariya Public School, Kannauj is one of the most reputed educational institutions with a legacy of over 32 years of excellence in education. The school is dedicated to providing high-quality education that focuses not only on academic achievements but also on the overall development of every child.
+</p>
+<p>
+We believe in nurturing young minds with strong values, discipline, and modern knowledge so that they can confidently face future challenges. With experienced faculty, modern infrastructure, and a student-friendly environment, the school ensures holistic development.
+</p>
+</section>
+
+<!-- VISION -->
+<section class="card">
+<h2>Vision & Mission</h2>
+<p><b>Vision:</b> To create confident, responsible, and innovative individuals who contribute positively to society and excel in every field of life.</p>
+<p><b>Mission:</b></p>
+<ul>
+<li>Provide quality education using modern teaching methods</li>
+<li>Develop leadership, discipline, and confidence</li>
+<li>Promote AI, robotics, and technology-based learning</li>
+<li>Prepare students for competitive exams and future careers</li>
+<li>Build strong moral and ethical values</li>
+</ul>
+</section>
+
+<!-- DIRECTOR -->
+<section class="card">
+<h2>Director’s Message</h2>
+<div class="msg">
+<img src="director.jpg">
+<div>
+<p><i>“Our aim is to provide a strong educational foundation with values and discipline.”</i></p>
+<p>We are committed to nurturing students with dedication, care, and modern learning so they can achieve excellence.</p>
+<p> <b>— Mrs. Nilima Pariya </b><p>
+<p> (B.Ed, M.Ed, M.Phill)</p>
+</div>
+</div>
+</section>
+
+<!-- CHAIRMAN -->
+<section class="card">
+<h2>Chairman’s Message</h2>
+<div class="msg">
+<img src="chairman.jpg">
+<div>
+<p><i>“Education builds strong character and a successful future.”</i></p>
+<p>Our goal is to provide quality education with discipline and moral values for overall development.</p>
+<p><b>— Dr. Ashish Pariya (Advocate)</b></p>
+<p> (P.hd)</p>
+</div>
+</div>
+</section>
+
+<!-- MANAGER -->
+<section class="card">
+<h2>Manager’s Message</h2>
+<div class="msg">
+<img src="kartikey.jpg">
+<div>
+<p><i>“Innovation and technology are keys to success.”</i></p>
+<p>We integrate AI and robotics with education to prepare students for future challenges.</p>
+<p><b>— Adv. Kartikey Pariya </b></p>
+<p> (B.tech, M.tech (A.I. ansd Robotics), LL.B.)</p>
+</div>
+</div>
+</section>
+
+<!-- SLIDER -->
+<section class="card">
+<h2>Our Campus & Facilities</h2>
+
+<div class="slider">
+<div class="slides">
+<img src="school.jpg">
+<img src="computer.jpg">
+<img src="physics.jpg">
+<img src="chem.jpg">
+<img src="bio.jpg">
+<img src="nur.jpg">
+</div>
+</div>
+
+</section>
+
+<section id="contact" class="card">
+<h2>Contact</h2>
+<p>📞 7007508255</p>
+<p>📍 Kannauj, Uttar Pradesh</p>
+</section>
+
+</div>
+
+<footer>
+<p>© 2026 Soni Pariya Public School</p>
+</footer>
+
+</body>
+</html>
